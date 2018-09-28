@@ -34,7 +34,7 @@ class ProfileFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //pictureImageView.setImageUrl("https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg")
+        ///pictureImageView.setImageUrl("https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg")
     }
 
 }
