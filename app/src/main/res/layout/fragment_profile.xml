@@ -9,8 +9,8 @@
 
     <com.androidnetworking.widget.ANImageView
         android:id="@+id/profileImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="@dimen/default_margin"
         app:layout_constraintTop_toTopOf="parent"
         />
@@ -22,7 +22,7 @@
         android:layout_margin="@dimen/default_margin"
         app:layout_constraintTop_toBottomOf="@id/profileImageView"
         android:textStyle="bold"
-        android:text="@string/app_name"
+        android:text="@string/test"
         />
 
     <TextView
@@ -32,8 +32,20 @@
         android:layout_margin="@dimen/default_margin"
         app:layout_constraintTop_toBottomOf="@id/firstNameTextView"
         app:layout_constraintStart_toEndOf = "@id/firstNameTextView"
-        android:text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        android:text=""
         />
+
+    <TextView
+        android:id="@+id/birthDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        app:layout_constraintTop_toBottomOf="@id/profileImageView"
+        android:textStyle="bold"
+        android:text="@string/test"
+        />
+
+
 
 
 </android.support.constraint.ConstraintLayout>
